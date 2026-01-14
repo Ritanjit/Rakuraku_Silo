@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <!-- Main silo shape -->
+  <rect x="28" y="40" width="72" height="70" rx="4" fill="url(#grad)"/>
+  <!-- Silo top -->
+  <path d="M28 45 L64 20 L100 45" fill="none" stroke="url(#grad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Shield/lock icon -->
+  <circle cx="64" cy="75" r="16" fill="rgba(255,255,255,0.2)"/>
+  <rect x="58" y="72" width="12" height="10" rx="2" fill="white"/>
+  <path d="M60 72 L60 68 A4 4 0 0 1 68 68 L68 72" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
